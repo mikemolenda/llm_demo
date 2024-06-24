@@ -1,0 +1,8 @@
+model:
+  name: meta-llama/Llama-2-7b-chat-hf
+  type: llama
+  lib: basic # avx2 is faster but does not work on arm64
+  hf: true
+  device: cpu
+  stream: true
+timeout: 15.0
